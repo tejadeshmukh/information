@@ -1,4 +1,18 @@
 import streamlit as st
+def set_background():
+    # Replace 'background.jpg' with the path to your background image file
+    page_bg_img = '''
+    <style>
+    body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    }
+    </style>
+    '''
+    st.markdown(page_bg_img, unsafe_allow_html=True)
+
+# Call the function to set the background image
+set_background()
 
 st.title("नेत्ररोग्यांसाठी माहिती")
 
