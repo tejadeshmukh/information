@@ -10,7 +10,11 @@ def set_background():
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
-
+st.markdown("""
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+""", unsafe_allow_html=True)
 # Call the function to set the background image
 set_background()
 st.title("आरोग्यशाळा हॉस्पिटल, गणेशवाडी, पंचवटी, नाशिक")
