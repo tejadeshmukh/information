@@ -13,7 +13,8 @@ def set_background():
 
 # Call the function to set the background image
 set_background()
-
+st.title("आरोग्यशाळा हॉस्पिटल, गणेशवाडी, पंचवटी, नाशिक")
+st.tile("शालक्यतंत्र विभाग")
 st.title("नेत्ररोग्यांसाठी माहिती")
 
 st.subheader("पथ्य (हितकर/सेवन करण्यास योग्य गोष्टी):")
