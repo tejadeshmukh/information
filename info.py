@@ -1,11 +1,14 @@
 import streamlit as st
-def set_background(color):
-    # Use the provided color as the background
-    page_bg_color = f'<style>body {{ background-color: {color}; }}</style>'
-    st.markdown(page_bg_color, unsafe_allow_html=True)
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://img.freepik.com/premium-vector/abstract-technology-digital-hi-tech-background_41814-264.jpg?w=900");
+background-size: cover;
+}
+</style>
+'''
 
-# Call the function to set the background color
-set_background("#f4acb7")  # Replace with your desired hex color code
+st.markdown(page_bg_img, unsafe_allow_html=True)
 st.title("आरोग्यशाळा हॉस्पिटल, गणेशवाडी, पंचवटी, नाशिक")
 st.markdown("<h3 style='text-align: center;'>शालक्यतंत्र विभाग</h3>", unsafe_allow_html=True)
 
