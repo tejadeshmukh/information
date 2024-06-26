@@ -14,10 +14,10 @@ def set_background():
 # Call the function to set the background image
 set_background()
 st.title("आरोग्यशाळा हॉस्पिटल, गणेशवाडी, पंचवटी, नाशिक")
-st.markdown("<h2 style='text-align: center;'>शालक्यतंत्र विभाग</h2>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>शालक्यतंत्र विभाग</h3>", unsafe_allow_html=True)
 
 # Subheading for department information
-st.markdown("<h3>नेत्ररोग्यांसाठी माहिती</h3>", unsafe_allow_html=True)
+st.markdown("<h4>नेत्ररोग्यांसाठी माहिती</h4>", unsafe_allow_html=True)
 
 st.subheader("पथ्य (हितकर/सेवन करण्यास योग्य गोष्टी):")
 st.write("""
